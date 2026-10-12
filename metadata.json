@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Nord — Curated Fashion & Footwear Marketplace",
+  "description": "Premium multi-role fashion marketplace featuring luxury apparel, footwear, headwear, and accessories with customer and administrative controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
