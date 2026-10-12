@@ -52,7 +52,7 @@ function MainRouter() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors selection:bg-zinc-900 selection:text-white dark:selection:bg-white dark:selection:text-zinc-950 font-sans antialiased">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden flex flex-col bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors selection:bg-zinc-900 selection:text-white dark:selection:bg-white dark:selection:text-zinc-950 font-sans antialiased">
       {/* Top Header */}
       <Header />
 
@@ -60,7 +60,7 @@ function MainRouter() {
       <Sidebar />
 
       {/* Primary Page Canvas */}
-      <main className="flex-1 w-full">
+      <main className="flex-1 w-full max-w-full overflow-x-hidden">
         {renderCurrentPage()}
       </main>
 

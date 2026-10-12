@@ -80,7 +80,7 @@ export const ProductDetailPage: React.FC = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 md:py-10 space-y-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 md:py-10 space-y-12 w-full max-w-full overflow-hidden">
       {/* Back button & Breadcrumbs */}
       <div className="flex items-center justify-between text-xs text-zinc-500 border-b border-zinc-200 dark:border-zinc-800 pb-4">
         <button
@@ -117,7 +117,7 @@ export const ProductDetailPage: React.FC = () => {
 
           {/* Thumbnails row */}
           {product.images.length > 1 && (
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 overflow-x-auto pb-2">
               {product.images.map((img, idx) => (
                 <button
                   key={idx}

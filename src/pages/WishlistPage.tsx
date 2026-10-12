@@ -9,7 +9,7 @@ export const WishlistPage: React.FC = () => {
   const savedProducts = products.filter((p) => wishlist.includes(p.id));
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-12 space-y-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-12 space-y-8 w-full max-w-full overflow-hidden">
       <div className="flex items-center justify-between border-b border-zinc-200 dark:border-zinc-800 pb-4">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-950 dark:text-white">

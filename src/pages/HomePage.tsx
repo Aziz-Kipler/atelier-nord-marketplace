@@ -15,7 +15,7 @@ export const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="space-y-16 md:space-y-24 pb-16">
+    <div className="space-y-16 md:space-y-24 pb-16 w-full max-w-full overflow-x-hidden">
       {/* 1. EDITORIAL HERO SECTION */}
       <section className="relative w-full bg-zinc-950 text-white overflow-hidden py-16 md:py-24 px-4 sm:px-6">
         {/* Soft architectural gradient illumination */}

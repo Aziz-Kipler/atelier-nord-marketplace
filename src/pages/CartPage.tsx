@@ -135,7 +135,7 @@ export const CartPage: React.FC = () => {
   const finalTotal = Math.max(0, cartTotal - promoDiscount + shippingCost);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-12 space-y-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-12 space-y-8 w-full max-w-full overflow-hidden">
       <div className="flex items-center justify-between border-b border-zinc-200 dark:border-zinc-800 pb-4">
         <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-950 dark:text-white">
           {t.cartTitle} ({cart.length})
